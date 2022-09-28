@@ -1,5 +1,9 @@
 WRF-observational-nudging-Python-scripts
 
+Contact:
+William Moss
+graham.moss@umconnect.umt.edu
+
 These scripts are tools to prepare Lufft surface weather station data or raws
 surface weather station data into LITTLE_R format. lufft2littler.py or raws2littler.py
 must be run for each input file. littler2date.py then takes the outputs of the above
