@@ -45,6 +45,7 @@ def get_sonde_time(date):
 	return dt.datetime(year, month, day, hour, minute)
 
 # User input
+print(sys.argv)
 if len(sys.argv) < 5:
 	print('### ERROR ###\n' \
 	      'Must have at least 4 arguments\n' \

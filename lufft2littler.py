@@ -99,6 +99,7 @@ surf_wd     = []
 # Read in lufft data
 with open(lufft_file, newline='') as csvfile:
     surfs_dat = csv.reader(csvfile, delimiter=',')
+    next(surfs_dat, None)
     for surf in surfs_dat:
         time = dt.datetime(*get_time(surf[0]))
         if time >= t1 and time <= t2:
