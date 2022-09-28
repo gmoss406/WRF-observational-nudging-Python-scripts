@@ -1,3 +1,0 @@
-[console_scripts]
-littler = littler.__main__:main
-
